@@ -1,3 +1,3 @@
-# Daily Practice #2: Google Search
+# Daily Practice #3: Balenciaga Home
 - Webpage practice
 - Replicating UI
