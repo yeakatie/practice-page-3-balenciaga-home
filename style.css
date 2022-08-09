@@ -25,15 +25,12 @@ header {
     background-color: #fff;
     position: fixed;
     top: 0;
-    left: 0px;
     z-index: 99;
     border-bottom: 1px solid #000;
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    font-size: .75rem;
-    font-weight: 400;
-    line-height: 130%;
+
     flex-direction: row;
 }
 
@@ -47,19 +44,33 @@ header {
     align-items: center;
 }
 
-
+.header__logo {
+    z-index: 1022;
+    display: block;
+    height: 2.8125rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8.625rem;
+}
 
 .header__logo a {
-    left: 50%;
-    
+    display: block;
     width: 100%;
     height: 100%;
-    padding: 0;
+    border-color: transparent;
+}
+
+.header__logo h1 {
+    display: block;
+    width: 100%;
 }
 
 h1 {
     margin: 0;
+    font-size: 2em;
 }
+
 
 .header__logo img {
     display: block;
@@ -79,11 +90,17 @@ img {
     display: inline-flex;
     align-items: center;
     font-size: .75rem;
-    margin-left: .25rem;
     border-radius: .25rem;
     letter-spacing: .03em;
     line-height: 130%;
-    
+}
+
+header .header__left a {
+    margin-left: .25rem;
+}
+
+.header .header__left a:hover {
+    border-color: #000;
 }
 
 
